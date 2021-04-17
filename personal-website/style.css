@@ -29,7 +29,6 @@ header {
 h1 {
   border-bottom: solid 2px darkblue;
   padding-bottom: 1px;
-  display: inline;
 }
 
 .nav ul {
