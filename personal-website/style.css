@@ -16,17 +16,12 @@ a {
   text-decoration-line: none;
 }
 
-.bodylayout {
-  display: grid;
-}
-
 header {
   border-bottom: solid 2px darkblue;
   margin: 0;
 }
 
 h1 {
-  border-bottom: solid 2px darkblue;
   padding-bottom: 1px;
 }
 
@@ -35,11 +30,9 @@ h1 {
   grid-template-columns: 100px 100px;
   list-style: none;
   padding-left: 0;
+  background-color: rgb(232, 220, 226);
+  border-top: solid 2px darkblue;
 }
-
-/* .nav-b {
-  grid-column-start: -3;
-} */
 
 img {
   opacity: 0;
@@ -82,10 +75,25 @@ img:hover {
   justify-content: space-evenly;
 }
 
+table {
+  width: 100%;
+}
+
 th,
 td {
   text-align: left;
 }
+
+.aside {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  padding: 0;
+}
+
+.img1 {
+  grid
+} 
 
 .footer ul {
   display: grid;
