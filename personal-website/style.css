@@ -23,7 +23,6 @@ a {
 header {
   border-bottom: solid 2px darkblue;
   margin: 0;
-  background-color: violet;
 }
 
 h1 {
@@ -92,12 +91,23 @@ td {
 
 .footer ul {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: 1fr 1fr;
+
   padding-top: 60px;
   list-style: none;
   border-top: solid 2px darkblue;
 }
 
-.footer-b ul li {
-  grid-row-end: -1;
+.footer-b {
+  grid-column-start: 6;
+  grid-row-start: 3;
 }
+
+.footer-c {
+  grid-column-start: 11;
+}
+
+/* .footer-b ul li {
+  grid-row-end: -1;
+} */
